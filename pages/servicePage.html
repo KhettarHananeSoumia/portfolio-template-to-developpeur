@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    
+   
+</head>
+<body >  
+          
+      <!-- Header --> 
+    <header class="header">
+         
+          <div class="Infos">
+                    <div class="circle"></div>
+                    <div class="Name">
+                              <h2 id="name">KHETTAR Hanane Soumia</h2>
+                              <h4 id="job">App Developer & Trainer | Founder & CEO of Développeur</h4>
+                    </div>
+          </div>
+          <div class="drawer-container">
+            
+            <div class="menu-button" onclick="toggleDrawer()">☰</div>
+        
+            
+            <div class="drawer" id="drawer">
+                <div class="drawer-header">
+                    <h2>Menu</h2>
+                    <button onclick="toggleDrawer()">✕</button> 
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <i class="bi bi-house-door" style="margin-right: 8px;"></i> Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\Hanane Soumia\Desktop\Phortfolio\pages\resumePage.html">
+                            <i class="bi bi-file-earmark-person" style="margin-right: 8px;"></i> Resume
+                        </a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\Hanane Soumia\Desktop\Phortfolio\pages\projectPage.html">
+                            <i class="bi bi-kanban" style="margin-right: 8px;"></i> Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="C:\Users\Hanane Soumia\Desktop\Phortfolio\pages\servicePage.html">
+                            <i class="bi bi-briefcase" style="margin-right: 8px;"></i> Services
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+          <div class="navigator">
+                              <h3 id="home">Home</h3>
+                              <hr class="styled-line">
+                              <h3 id="resume">Resume</h3>
+                              <hr class="styled-line">
+                              <h3 id="project">Projects</h3>
+                              <hr class="styled-line">
+                              <h3 id="service">Services</h3>
+                              
+          </div>
+          
+    </header>
+
+<!-- Section --> 
+<div class="sectionService">
+    <h1 id="myresume">Services</h1>
+         
+          <div class="allS" >
+                  
+                    <div class="service">
+                              <div class="circle1">1</div>
+                              <h3 class="title">Training for All Ages</h3>
+                              <p class="job">Empower yourself with tailored training sessions designed for children and adultes. Whether you're a student, an employer, or someone looking to expand their knowledge, I offer comprehensive courses and workshops in a range of subjects. From introductory lessons to advanced techniques, my training is adaptable to various learning needs and styles.</p>
+                              <button id="button1" class="button"  onclick="openModal()">Contact me</button>
+                              </div>
+
+
+                    <div class="service">
+                              <div class="circle2">2</div>
+                              <h3 class="title">Mobile App Development</h3>
+                              <p class="job">Transform your ideas into functional and user-friendly mobile applications. With a focus on innovative design and efficient coding, I develop mobile apps that meet your specific needs and goals. Whether you're looking to create a new app or improve an existing one, my expertise ensures high-quality results and a seamless user experience.</p>                           
+                              <button  id="button2" class="button1"   onclick="openModal()">Contact me</button>
+
+                    </div>
+
+                    <div class="service">
+                              <div class="circle1">3</div>
+                              <h3 class="title">Comprehensive Consulting </h3>
+                              <p class="job">Leverage my expertise in development and training to get personalized advice and strategies for your projects. From planning and designing to executing and refining, I provide insights and support to help you succeed in your endeavors. My consulting services are designed to address your unique challenges and opportunities.</p>
+                              <button  id="button3" class="button"  onclick="openModal()" >Contact me</button>
+                        
+                    </div>
+                              
+           </div>
+              
+              
+</div>
+
+ <!-- The Modal -->
+ <div class="modal" id="socialModal">
+  <div class="modal-content">
+  <h2>Contact Me</h2>
+  <div id="sIs1" class="SocialMedia">
+  </div><button class="close-btn" onclick="closeModal()">Close</button>
+  </div>
+</div>
+
+
+<hr class="beauty">
+  <!-- Footer --> 
+  <footer class="footer" id="footerR">
+
+          <div class="PhoneNumber">
+                              <h3 id="phone">Phone</h3>
+                              <h5 id="number">+213542577666</h5>
+        
+          </div>
+
+          <div class="Email">
+           
+                      <h3 id="email">Email</h3>
+                      <h5 id="address">khettarhananesoumia22@gmail.com</h5>
+
+          </div>
+
+          <div class="FolloweMe">
+          
+                      <h3 id="follow">Follow Me</h3>
+                      <div id="sIs" class="SocialMedia">
+                      
+                      </div>
+          </div>
+
+          <div class="copyright">
+          
+            <h5 id="cr">© 2024 By KHETTAR Hanane Soumia.</h5>
+           
+          </div>
+          
+</footer>
+<script src="file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/jscript.js"></script>
+</body>
+</html>
