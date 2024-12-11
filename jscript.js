@@ -36,13 +36,13 @@ function closeModal() {
 
 
 const buttonMap = {
-  home: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/index.html',
-  resume: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/resumePage.html',
-  project: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/projectPage.html',
-  service: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/servicePage.html',
-  resumeButton: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/resumePage.html',
-  projectButton: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/projectPage.html',
-  serviceButton: 'file:///C:/Users/Hanane%20Soumia/Desktop/Phortfolio/pages/servicePage.html',
+  home: 'index.html',
+  resume: 'resumePage.html',
+  project: 'projectPage.html',
+  service: 'servicePage.html',
+  resumeButton: 'resumePage.html',
+  projectButton: 'projectPage.html',
+  serviceButton: 'servicePage.html',
 };
 
 document.addEventListener('click', function (event) {
